@@ -1,0 +1,114 @@
+.sidebar .logo a{
+	font-size: 1.7em;
+	font-weight: bolder;
+	color: white;
+	letter-spacing: 1px;
+} 
+.sidebar .logo em{
+	color: rgb(57, 96, 255);
+}
+.sidebar .logo a{
+	text-decoration: none;
+}
+#addcourse{
+	position: absolute;
+	display: none;
+	top: 40%;
+	left: 10%;
+}
+.admin_form{
+	border: 2px solid rgba(0,0,0,.7);
+	border-radius: 10%;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	padding: 60px;
+	margin: 10% 20%;
+}
+.admin_form .error{
+	height: 30px;
+	color: red;
+	font-variant: small-caps;
+	margin: 30px 0;
+}
+
+.subcourses{
+	width: 100%;
+	font-size: 1.7em;
+	font-weight: bold;
+	letter-spacing: 3px;
+	border: 3px solid rgba(0, 140, 64, .8);
+	box-shadow: 5px 10px gray;
+	border-radius: 15px;
+	padding: 20px;
+	color: black;
+	background-color: rgba(0, 140, 64, .4);
+	outline: none;
+}
+.subcourses:active{
+	 box-shadow: 0 0 #666;
+	 transform: translateY(4px);
+}
+#sub_content{
+	border:  3px solid rgba(0, 140, 64, .8);
+	border-radius: 10px;
+	padding:0 10px;
+	margin-top: 10px;
+}
+.course{
+	padding: 40px;
+	background-color: rgba(0, 140, 64, .4);
+	font-variant: small-caps;
+	font-weight: bold;
+	letter-spacing: 4px;
+	font-size: 1.8em;
+	width: 100%;
+	margin: 10px;
+	border: 2px solid rgba(0,0,0,.4);
+	border-radius: 10px;
+}
+
+.cname{
+	width: 80%;
+	margin: 10px 0;
+	padding: 20px;
+	font-size: 1.5em;
+	color: black;
+	background-color: rgba(0,0,0,.8);
+	letter-spacing: 3px;
+	font-variant:small-caps;
+	font-weight: bold;
+}
+.arrow{
+	width: 20%;
+	margin: 10px 0;
+	border-left: 1px solid black;
+	padding: 20px;
+	font-size: 1.5em;
+	color: black;
+	background-color: rgba(0,0,0,.8);
+}
+.sname{
+	width: 60%;
+	float: right;
+	padding: 12px;
+	font-size: 1.3em;
+	color: black;
+	background-color: rgba(0,0,0,.4);
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}

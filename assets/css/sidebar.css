@@ -1,0 +1,79 @@
+
+#sidebar{
+	background-color: rgba(0,128,100,.5);
+	height: 90%;
+	width: 80%;
+	padding: 20px 0 100px;
+	overflow-y: visible;
+}
+#sidebar h4{
+	font-size: 1.3em;
+	letter-spacing: 2.5px;
+	font-variant: small-caps;
+	padding: 10px;
+	border:2px solid gray;
+	text-align: center;
+	font-weight: bold;
+	background-color: rgba(0,0,0,.6);
+}
+#sidebar h4 button{
+	float: right;
+	margin-right: 5px;
+	background-color: rgba(0,0,0,.2);
+	padding: 8px 15px;
+	margin-top: -9px;
+
+}
+#sidebar h4 i{
+	color: white;
+}
+#sidebar div{
+	display:none;
+}
+#sidebar a{
+	display: block;
+	padding: 5px 5px 0 5px;
+	border-bottom: 2px solid rgba(0,0,0,.5);
+	font-size: 1.2em;
+	font-family: sans-serif;
+	text-align: center;
+	color: rgba(255,255,255,.8);
+}
+
+
+
+#button_content{
+	margin:5%;
+	width: 90%;
+	z-index: 5555555;
+	font-variant: small-caps;
+	font-size: 1.2em;
+	padding: 5px;
+	display: none;
+	letter-spacing: 8px;
+	font-weight: bolder;
+	text-align: center;
+	background-color: rgba(0,0,0,.4);
+	position: relative;
+}
+#button_content button{
+	background-color: rgba(0,0,0,.4);
+	color: white;	
+	border-radius: 10px;
+}
+
+
+@media screen and (max-width: 765px){
+	#button_content,#button_content button{
+		display: inline-block;
+	}
+	#sidebar{
+				width: 60%;
+		display: none;
+		width:80%;background-color: rgba(0,128,100,1);
+		z-index: 2;
+	}
+	.view_content{
+		width: 130%;
+	}
+}
